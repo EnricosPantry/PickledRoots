@@ -1,4 +1,4 @@
-# Screen timeout (blanking) during video and audio playback
+# Bad behaviour: screen blanking during media playback
 
 *Written 29/04/2024. Arch Linux, Xorg, Qtile window manager, PulseAudio.*
 
