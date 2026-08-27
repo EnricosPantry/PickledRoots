@@ -21,12 +21,11 @@ Ly was used as the display manager, Firefox as the browser, Alacritty as the ter
 
 #### Setup guide
 
-- [Wasabi setup guide: Arch Linux and Windows 11 dual-boot](arch-windows11-dual-boot-setup.md)
-   This is the full system setup guide. It includes Windows and Arch Linux installation, and post-installation to-do.
+- [<Wasabi setup guide: Arch Linux and Windows 11 dual-boot>](arch-windows11-dual-boot-setup.md) This is the full system setup guide. It includes Windows and Arch Linux step-by-step installation, and the post-installation to-do list.
 
 #### Troubleshooting notes
 
-- [Bad behaviour: keyboard layout reverts to US](keyboard-layout-reverts-to-us.md)
+- [<Bad behaviour: keyboard layout reverts to US>](keyboard-layout-reverts-to-us.md)
 - [PAM error: gkr-pam: couldn't unlock the login keyring](gkr-pam-couldnt-unlock-the-login-keyring.md)
 - [Kernel error: i801_smbus: SMBus is busy, can't use it!](i801-smbus-smbus-is-busy-cant-use-it.md)
 - [Bad behaviour: screen blanking during media playback](screen-blanking-during-video-and-audio.md)
