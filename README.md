@@ -8,7 +8,7 @@ The system was in use between 2022 and 2025. The purpose of this documentation i
 The setup is for an Arch Linux installation as the main daily driver, with a minimal Windows 11 used for gaming alongside Arch.
 The system ran on a Lenovo ThinkPad X1 Carbon Gen 9, with an Intel processor and graphics.
 
-The Arch installation used a minimal window manager, Qtile, rather than a full desktop environment, and ran a deliberately minimal number of packages. This ensured the system was simple and stable, even when updating daily.
+The Arch installation used a minimal window manager, Qtile, rather than a full desktop environment, and deliberately ran the lowest possible number of packages. This ensured the system was simple and stable, even when updating daily.
 
 The system and files were backed up in the following ways:
 - A custom-made Rsync script copied configuration file changes from anywhere in the filesystem to an external drive. It separately backed up the user home folder to a second partition of the drive.
@@ -19,7 +19,6 @@ Ly was used as the display manager, Firefox as the browser, Alacritty as the ter
 ## Contents
 
 - [Arch Linux and Windows 11 dual-boot setup](Arch-Windows11-dual-boot-setup.md)
-- [Troubleshooting notes](troubleshooting/)
 
 ## Sources
 
