@@ -1,4 +1,4 @@
-# Keyboard layout reverts to US
+# Bad behaviour: keyboard layout reverts to US
 
 *Written 29/04/2024. Arch Linux, Xorg, Qtile window manager.*
 
