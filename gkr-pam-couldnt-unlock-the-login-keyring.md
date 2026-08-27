@@ -1,4 +1,4 @@
-# gkr-pam: couldn't unlock the login keyring
+# PAM error: gkr-pam: couldn't unlock the login keyring
 
 *Written 18/07/2024. Arch Linux, ly display manager, gnome-keyring.*
 
