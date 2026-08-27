@@ -27,6 +27,7 @@ I could find no other problem apart from these error messages showing in journal
 I found a similar error that a user posted on the Arch Forums page listed below, and in the thread somebody suggested the name of the kernel module, which is `i2c_i801`, and advised to blacklist the module (prevent it from loading at boot).
 
 So, on the Kernel module Arch Wiki page listed below, I found how to do that. In `/etc/default/grub`, on the line where it says `GRUB_CMDLINE_LINUX_DEFAULT=`, append either `module_blacklist=i2c_i801`, which will completely refuse to load the module, or `modprobe.blacklist=i2c_i801`, which will only prevent implicit loading and let you load the module later.
+
 I ran both options and tested the outcomes:
 
 - Completely refusing to load the module worked in getting rid of the errors, but replaced them with another error message saying that the module has been blacklisted.
@@ -39,6 +40,7 @@ grub-mkconfig -o /boot/grub/grub.cfg
 ```
 
 Rebooted once it was done, and that's it. The error message disappeared.
+
 This is a mitigation rather than a long-term solution, as it does not fix the underlying issue. I decided to keep it for now as it does not impact any other system functionality at all.
 
 ## Sources
