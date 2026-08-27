@@ -12,7 +12,7 @@ After the change this year to BST (one hour forward) on the 31st of March, the t
 
 ## How to fix it
 
-I've found out by reading the System time page that it is recommended to set Windows to UTC when dual-booting. This needs to be changed from a fresh install, as Windows is automatically set to local time.
+I've found out by reading the System time page that it is recommended to set Windows to UTC when dual-booting. This needs to be changed manually, as Windows is automatically set to local time.
 
 This is a problem because when Windows writes the local time to the hardware clock, Linux then reads it as if it were UTC. When the time changes in summer, the +1 offset gets written to the RTC by Windows; it then gets read as UTC by Linux, which then applies a second offset of +1, resulting in a 2-hour offset.
 
