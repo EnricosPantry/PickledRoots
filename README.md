@@ -9,6 +9,7 @@ The setup is for an Arch Linux installation as the main daily driver, with a min
 The system ran on a Lenovo ThinkPad X1 Carbon Gen 9, with an Intel processor and graphics.
 
 The Arch installation used a tiling window manager, Qtile, rather than a full desktop environment, and ran a deliberately minimal number of packages. This kept the system simple and stable, even when updating daily.
+
 Configuration files were backed up two ways:
 - A custom-made Rsync script copied configuration file changes from anywhere in the filesystem to an external drive. It separately backed up the user home folder to a second partition of the drive.
 - A bare Git repository was used to track changes and upload commits to GitHub. The dotfiles themselves are not published.
