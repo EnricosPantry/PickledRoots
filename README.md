@@ -1,12 +1,12 @@
 # PickledRoots
 
-This is a repository of notes from a personal Arch Linux and Windows 11 dual-boot setup.
+This is a repository of notes from a personal Arch Linux and Windows 11 dual-boot setup, on a device affectionately named Wasabi.
 The system was in use between 2022 and 2025. The purpose of this documentation is to capture a snapshot of how it was during its active years, rather than to provide an up-to-date guide. The vast majority of the processes can still be followed today; bear in mind, however, that some packages and commands may be out of date.
 
 ## About
 
 The setup is for an Arch Linux installation as the main daily driver, with a minimal Windows 11 used for gaming alongside Arch.
-The system ran on a Lenovo ThinkPad X1 Carbon Gen 9, with an Intel processor and graphics.
+The machine itself was a Lenovo ThinkPad X1 Carbon Gen 9, with an Intel processor and graphics.
 
 The Arch installation used a minimal window manager, Qtile, rather than a full desktop environment, and deliberately ran the lowest possible number of packages. This ensured the system was simple and stable, even when updating daily.
 
