@@ -1,4 +1,4 @@
-# System time error after change to BST
+# Bad behaviour: wrong system time after change to BST
 
 *Written 02/04/2024, with a related problem added 15/05/2024. Arch Linux and Windows 11 dual-boot, Qtile window manager.*
 
