@@ -25,11 +25,11 @@ Ly was used as the display manager, Firefox as the browser, Alacritty as the ter
 
 #### Troubleshooting notes
 
-- [Keyboard layout reverts to US](keyboard-layout-reverts-to-us.md)
-- [Error message: gkr-pam: couldn't unlock the login keyring](gkr-pam-couldnt-unlock-the-login-keyring.md)
+- [Bad behaviour: keyboard layout reverts to US](keyboard-layout-reverts-to-us.md)
+- [PAM error: gkr-pam: couldn't unlock the login keyring](gkr-pam-couldnt-unlock-the-login-keyring.md)
 - [Kernel error: i801_smbus: SMBus is busy, can't use it!](i801-smbus-smbus-is-busy-cant-use-it.md)
-- [Screen timeout (blanking) during video and audio playback](screen-blanking-during-video-and-audio.md)
-- [System time error after change to BST](system-time-error-after-change-to-bst.md)
+- [Bad behaviour: screen timeout (blanking) during video and audio playback](screen-blanking-during-video-and-audio.md)
+- [Bad behaviour: system time error after change to BST](system-time-error-after-change-to-bst.md)
 
 ## Sources
 
