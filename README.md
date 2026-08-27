@@ -20,7 +20,7 @@ Ly was used as the display manager, Firefox as the browser, Alacritty as the ter
 
 - [Arch Linux and Windows 11 dual-boot setup](Arch-Windows11-dual-boot-setup.md)
 - [Keyboard layout reverts to US](Keyboard-layout-reverts-to-US.md)
-- [Error message: gkr-pam: couldn't unlock the login keyring](Error-message:_gkr-pam:_couldn't_unlock_the_login_keyring.md)
+- [Error message: gkr-pam: couldn't unlock the login keyring](gkr-pam_couldn't_unlock_the_login_keyring.md)
 
 ## Sources
 
