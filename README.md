@@ -19,6 +19,7 @@ Ly was used as the display manager, Firefox as the browser, Alacritty as the ter
 ## Contents
 
 - [Arch Linux and Windows 11 dual-boot setup](Arch-Windows11-dual-boot-setup.md)
+- [Keyboard layout reverts to US](Keyboard layout reverts to US)
 
 ## Sources
 
