@@ -27,7 +27,7 @@ Ly was used as the display manager, Firefox as the browser, Alacritty as the ter
 
 - [Bad behaviour: keyboard layout reverts to US](keyboard-layout-reverts-to-us.md) - the keyboard layout kept changing to US randomly for months, with no apparent solution; found the root cause after a seemingly unrelated action.
 - [PAM error: gkr-pam: couldn't unlock the login keyring](gkr-pam-couldnt-unlock-the-login-keyring.md) - this innocuous error message showed up in journalctl after every boot; found the cause to be a single file that I configured wrongly.
-- [Kernel error: i801_smbus: SMBus is busy, can't use it!](i801-smbus-smbus-is-busy-cant-use-it.md) - innocuous kernel error showing up in journalctl after boot, resolved by preventing the module's implicit loading.
+- [Kernel error: i801_smbus: SMBus is busy, can't use it!](i801-smbus-smbus-is-busy-cant-use-it.md) - innocuous kernel error showing up in journalctl after boot; resolved by preventing the module's implicit loading.
 - [Bad behaviour: screen blanking during media playback](screen-blanking-during-video-and-audio.md) - the screen kept on timing out (blanking) even whilst videos or music were playing; wrote a custom Bash script to prevent it from happening.
 - [Bad behaviour: wrong system time after change to BST](system-time-error-after-change-to-bst.md) - the change to British Summer Time moved the clock forward in Linux by 2 hours rather than 1; the cause was a wrong time setup in Windows.
 
