@@ -21,6 +21,7 @@ Ly was used as the display manager, Firefox as the browser, Alacritty as the ter
 - [Arch Linux and Windows 11 dual-boot setup](Arch-Windows11-dual-boot-setup.md)
 - [Keyboard layout reverts to US](Keyboard-layout-reverts-to-US.md)
 - [Error message: gkr-pam: couldn't unlock the login keyring](gkr-pam_couldn't_unlock_the_login_keyring.md)
+- [Kernel error: i801_smbus: SMBus is busy, can't use it!](i801_smbus_SMBus_is_busy_cant_use_it.md)
 
 ## Sources
 
