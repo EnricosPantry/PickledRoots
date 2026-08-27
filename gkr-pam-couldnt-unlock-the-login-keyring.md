@@ -17,6 +17,7 @@ I thought it was an issue because it was showing up in journalctl. However, it n
 ## The real cause and solution
 
 This error didn't have a solution until a few weeks ago. I've noticed ly graphics are marginally different, so ly has been updated, and when checking the journal, one fewer error message showed up. 
+
 Didn't think much of it. Until today.
 
 After checking my dotfiles repo, I realised that the file `/etc/pam.d/ly` has been updated from this:
