@@ -20,7 +20,7 @@ Ly was used as the display manager, Firefox as the browser, Alacritty as the ter
 
 #### Setup guide
 
-- [Arch Linux and Windows 11 dual-boot setup](Arch-Windows11-dual-boot-setup.md)
+- [Wasabi setup guide: Arch Linux and Windows 11 dual-boot](Arch-Windows11-dual-boot-setup.md)
 
 #### Troubleshooting notes
 
