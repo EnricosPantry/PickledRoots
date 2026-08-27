@@ -1,4 +1,4 @@
-# i801_smbus: SMBus is busy, can't use it
+# Kernel error: i801_smbus: SMBus is busy, can't use it**!**
 
 *Written 20/03/2024. Arch Linux, kernel 6.8.1.*
 
