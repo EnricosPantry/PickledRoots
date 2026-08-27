@@ -22,6 +22,7 @@ Ly was used as the display manager, Firefox as the browser, Alacritty as the ter
 #### Setup guide
 
 - [Wasabi setup guide: Arch Linux and Windows 11 dual-boot](arch-windows11-dual-boot-setup.md)
+   This is the full system setup guide. It includes Windows and Arch Linux installation, and post-installation to-do.
 
 #### Troubleshooting notes
 
