@@ -33,7 +33,7 @@ Ly was used as the display manager, Firefox as the browser, Alacritty as the ter
 
 ### Configuration files
 
-- [Wasabi dotfiles preview](Wasabi-dotfiles-preview) - this is a folder containing all manually authored and modified configuration files; it is structured as a Linux root folder with all original filepaths preserved.
+- [Wasabi dotfiles preview](Wasabi-dotfiles-preview) - this is a folder containing all manually authored and modified configuration files; it is structured the same way as the root folder on a Linux installation, with all original file paths preserved. All user-authored original scripts are stored at usr/local/bin.
 
 ## Sources
 
