@@ -1,4 +1,4 @@
-# PickledRoots
+# PickledRoot
 
 This is a repository of notes from a personal Arch Linux and Windows 11 dual-boot setup, on a device affectionately named Wasabi.
 
