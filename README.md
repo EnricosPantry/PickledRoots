@@ -13,7 +13,7 @@ The Arch installation used a minimal window manager, Qtile, rather than a full d
 
 The system and files were backed up in the following ways:
 - A custom-made Rsync script copied configuration file changes from anywhere in the filesystem to an external drive. It separately backed up the user home folder to a second partition of the drive.
-- A bare Git repository was used to track changes and upload commits to GitHub. The dotfiles themselves are not published.
+- A bare Git repository was used to track configuration file changes throughout the filesystem and upload commits to GitHub. The dotfiles themselves are published in this repository, inside the "Wasabi dotfiles preview" folder.
 
 Ly was used as the display manager, Firefox as the browser, Alacritty as the terminal emulator, and Rofi as the system and application menu.
 
