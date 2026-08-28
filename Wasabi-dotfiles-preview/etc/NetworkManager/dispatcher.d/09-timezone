@@ -1,0 +1,11 @@
+#!/bin/bash
+
+
+# Code found at https://wiki.archlinux.org/title/System_time#Setting_based_on_geolocation
+# NetworkManager script dispatcher that updates timezone every time NetworkManager connects
+
+case "$2" in
+  up)
+      timedatectl set-timezone "$(curl --fail https://ipapi.co/timezone)"
+  ;;
+esac

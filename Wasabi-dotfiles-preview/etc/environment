@@ -1,0 +1,11 @@
+#
+# This file is parsed by pam_env module
+#
+# Syntax: simple "KEY=VAL" pairs on separate lines
+#
+
+# Enable pixel-perfect scrolling in firefox
+MOZ_USE_XINPUT2=1
+
+# Enable qt5 settings managed through qt5ct to be picked up by apps
+QT_QPA_PLATFORMTHEME=qt5ct

@@ -1,0 +1,15 @@
+#!/bin/bash
+
+#########################################
+### SCREENSAVER AND SCREENLOCK SCRIPT ###
+#########################################
+
+# Dependencies:
+# - wmctrl (toggle full screen window)
+# - xtrlock (transparent screen lock)
+# - xdotool (simulate keystrokes)
+# - cmatrix (provides animation)
+
+
+xtrlock && xdotool key --window WINDOW a & wmctrl -r ':ACTIVE:' -b add,fullscreen && sleep 0.001 && cmatrix -a -b -u 5 -s -C magenta
+wmctrl -r ':ACTIVE:' -b remove,fullscreen

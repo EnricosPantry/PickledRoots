@@ -1,0 +1,9 @@
+neofetch
+ttf-ms-win11
+ttf-ms-win11-japanese
+ttf-ms-win11-korean
+ttf-ms-win11-other
+ttf-ms-win11-sea
+ttf-ms-win11-thai
+ttf-ms-win11-zh_cn
+ttf-ms-win11-zh_tw

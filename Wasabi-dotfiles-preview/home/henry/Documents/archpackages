@@ -1,0 +1,183 @@
+	TO DO LIST:
+
+- create pop-up window for hotkeys & more
+	- read how to implement pop-ups https://qtile-extras.readthedocs.io/en/stable/manual/ref/popup.html
+- configure notifications for battery levels
+	- read about udev rules https://wiki.archlinux.org/title/Udev
+- try polybar
+- try Ansible for configuration files management and/or learn git for dotfiles management
+
+	CLI UTILITIES:
+
+- neofetch				- neofetch
+- speedtest-cli				- speedtest
+- git					- git
+- yay (UNINSTALLED, AUR helper)		- yay				https://wiki.archlinux.org/title/AUR_helpers
+- nano (beginner friendly text editor)	- nano				https://wiki.archlinux.org/title/Nano
+- vim (UNINSTALLED advanced text editor)- vim
+- vi (git dependency text editor)	- vi
+- tlp (power management for laptop)	- tlp				https://wiki.archlinux.org/title/TLP
+- xorg-xrdb (X resources, not used)	- xrdb				https://wiki.archlinux.org/title/X_resources
+- htop (CXL, cli system monitor)	- htop
+- vtop (CXL, AUR, pretty cli monitor)	- vtop
+- bottom (better version of htop)	- "btm" or "btm -b"		
+- blueman (graphical bluetooth manager)	- blueman-manager (GUI)		https://wiki.archlinux.org/title/Blueman#Installation
+- pacman-contrib (pacman useful shell scripts collection)		https://gitlab.archlinux.org/pacman/pacman-contrib
+- autorandr (along with arandr, manages monitors configuration)		https://wiki.archlinux.org/title/multihead
+									https://linuxconfig.org/how-to-automatically-change-x11-displays-setup-with-autorandr-on-linux
+- wmctrl (enables window controls from cli, ex. fullscreen toggle)	https://forums.linuxmint.com/viewtopic.php?t=297449
+- which (shows path to binaries of the program specified)
+- pamixer (audio utility to easily access volume & more)		https://github.com/cdemoulins/pamixer
+- cronie (NOT USED, utility to manager cron jobs)			https://wiki.archlinux.org/title/cron
+- p7zip (utility to manage .zip files)					https://wiki.archlinux.org/title/Archiving_and_compression
+- rsync (copy tool, used as backup utility)				https://wiki.archlinux.org/title/rsync
+- tree (ls utility to visualize sub-directory tree)
+
+	GUI UTILITIES:
+
+- rofi (system menu utility)		- rofi, rofi-theme-selector	https://wiki.archlinux.org/title/Rofi
+- pavucontrol (volume)			- pavucontrol
+- timeshift (AUR) (uninstalled, buggy)	- timeshift-gtk (sudo)
+- arandr (xrandr gui utility, temporary)- arandr			https://wiki.archlinux.org/title/Xrandr
+- seahorse (keyring GUI)		- seahorse
+- tlpui (NOT USED, GUI for tlp)		- tlpui
+- shutter (NOT USED, screenshot utility)- shutter			https://wiki.archlinux.org/title/Screen_capture
+- flameshot (qt5, screenshot utility)	- flameshot gui
+- qt5ct (to manage qt5 global themes)	- qt5ct				https://wiki.archlinux.org/title/qt
+- ptxconf-git (AUR, GUI wacom config, slow to update, uninstalled)	https://wiki.archlinux.org/title/Graphics_tablet#Xrandr_Setup
+- nautilus-open-any-terminal (AUR, uninstalled)				https://aur.archlinux.org/packages/nautilus-open-any-terminal
+	in order to configure my own terminal run: gsettings set com.github.stunkymonkey.nautilus-open-any-terminal terminal alacritty
+- lxappearance (GUI utility to configure global GTK themes)		https://wiki.archlinux.org/title/GTK
+- (a link on the right to instructions how to customize GTK themes)	https://github.com/surajmandalcell/Gtk-Theming-Guide/blob/master/creating_gtk_themes.md
+- nemo-fileroller (nemo utility to enable "extract" context menu entry)
+- evince (gnome pdf file viewer)	- https://wiki.archlinux.org/title/PDF,_PS_and_DjVu
+- gedit (GUI gnome text editor)		
+- grsync (NOT USED, GUI interface for rsync)
+- variety (changes background, remember to login into WM, not xinitrc)	https://peterlevi.com/variety/how-to-install/
+- nm-connection-editor (NOT USED, gui to manage connection with N.M.)	https://wiki.archlinux.org/title/NetworkManager
+- networkmanager-dmenu-git (NOT USED, manage connections through rofi)
+- libnotify (send notifications to notification server) 		https://wiki.archlinux.org/title/Desktop_notifications
+- dunst (minimal notification server, remember to create dbus service)	https://dunst-project.org
+- insync (UNINSTALLED cloud storage client, for Google Drive, AUR)	https://wiki.archlinux.org/title/Insync
+- insync-nemo (UNINSTALLED insync plugin for Nemo file manager, AUR)
+- network-manager-applet (systray icon for NetworkManager)		https://wiki.archlinux.org/title/NetworkManager#nm-applet
+
+	ESSENTIAL COMPONENTS:		
+
+- alsa-utils (optional alsa components)	- alsamixer, amixer		https://wiki.archlinux.org/title/Advanced_Linux_Sound_Architecture
+- networkmanager (network connectivity)	- nmcli (CLI), nmtui(GUI)	https://wiki.archlinux.org/title/NetworkManager
+- bluez (bluetooth connectivity)					https://wiki.archlinux.org/title/Bluetooth
+- bluez-utils				- bluetoothctl (CLI)
+- pulseaudio (works on top of alsa)	- pulseaudio
+- pulseaudio-alsa
+- pulseaudio-bluetooth
+- pulseaudio-jack (optional)						https://wiki.archlinux.org/title/PulseAudio
+- sof-firmware (recommended if problems with sound card drivers)	https://www.sofproject.org
+- intel-media-driver (NOT USED, video hw acceleration)			https://wiki.archlinux.org/title/Hardware_video_acceleration
+- xf86-video-intel (prevent screen tearing and allows brightness ctrl)	https://wiki.archlinux.org/title/intel_graphics
+- mesa (generic more up to date video driver)
+
+	SYSTEM COMPONENTS:
+
+- linux-lts (stable but older kernel)					https://wiki.archlinux.org/title/System_maintenance#Upgrading_the_system	https://unix.stackexchange.com/questions/581455/how-to-add-entry-for-a-new-kernel-in-the-bootloader-config-file
+- polkit (priviledges management policy)				https://wiki.archlinux.org/title/Polkit
+- lxsession-gtk3 (provides graphical password prompt, start with /usr/bin/lxpolkit &)	
+- gnome-keyring (some apps needs it)	- secret-tool			https://wiki.archlinux.org/title/GNOME/Keyring
+- libsecret (for git authentication)	- lssecret
+- xf86-input-wacom (drivers for wacom tablet)				https://wiki.archlinux.org/title/Graphics_tablet
+- spice-vdagent (enable clipboard sharing with virt manager)
+- gamemode (improve game performance)					https://wiki.archlinux.org/title/Gamemode		
+- lib32-gamemode (gamemode dependency)			
+- meson (gamemode dependency)
+- intel-ucode (utility to update intel firmware microcode, update grub after installation)
+- reflector (automate refreshing of pacman mirrors)			https://wiki.archlinux.org/title/Reflector
+- xdg-user-dirs (create and manages user directories in /home)		https://wiki.archlinux.org/title/XDG_user_directories#Creating_default_directories
+- acpi (UNINSTALLED, not necessary, information on battery usage)	https://wiki.archlinux.org/title/ACPI_modules
+- ntfs-3g (to mount and manage ntfs file systems			https://wiki.archlinux.org/title/NTFS-3G
+- ttf-ms-win11 (AUR, Win11 fonts, needed for qtile to display properly)	https://wiki.archlinux.org/title/Microsoft_fonts
+	to install, follow instructions on PKGBUILD			https://aur.archlinux.org/packages/ttf-ms-win11
+
+	SECURITY:	 						https://christitus.com/linux-security-mistakes/
+
+- ufw (UNINSTALLED, using iptables)	- ufw (CLI)			https://wiki.archlinux.org/title/Uncomplicated_Firewall
+- fail2ban 				- fail2ban-client (CLI)		https://wiki.archlinux.org/title/Fail2ban
+
+
+	DEFAULT PROGRAMS:
+
+- vivaldi (no longer in use)		- vivaldi-stable		https://wiki.archlinux.org/title/Vivaldi
+- firefox				- firefox			https://wiki.archlinux.org/title/Firefox
+- alacritty				- alacritty			https://wiki.archlinux.org/title/Alacritty
+- vlc					- vlc				https://wiki.archlinux.org/title/VLC_media_player
+- nemo (files)								https://wiki.archlinux.org/title/Nemo
+- nemo-fileroller (nemo extension to manage tar files)
+- nautilus (uninstalled)		- nautilus			https://wiki.archlinux.org/title/GNOME/Files
+- gthumb (image viewer and editor)	- gthumb
+
+
+	MY PROGRAMS:
+
+- virt-manager								https://wiki.archlinux.org/title/Virt-Manager
+- quemu-desktop
+- libvirt (vm/qemu dependency)
+- edk2-ovmf (vm/qemu dependency)
+- dnsmasq (vm/qemu dependency, networking)
+- iptables-nft (vm/qemu dependency, networking)
+- dmidecode (vm/qemu dependency, networking)
+- bridge-utils (vm/qemu dependency, networking)
+- steam									https://wiki.archlinux.org/title/steam
+- discord								https://wiki.archlinux.org/title/Discord
+- mailspring (flatpak) (uninstalled due to file permission issue)
+- libreoffice-fresh (office package, newer version)			https://wiki.archlinux.org/title/LibreOffice
+- gparted (disk partitioning graphical tool)				https://wiki.archlinux.org/title/Parted
+
+	FLATPAK DEPENDENCIES & PROGRAMS
+
+- flatpak (provide installation & update of flatpaks)			https://wiki.archlinux.org/title/Flatpak
+- xdg-desktop-portal (dependency, gives access to $XDG_CURRENT_DESKTOP) https://wiki.archlinux.org/title/XDG_Desktop_Portal
+- xdg-desktop-portal-gtk (desktop-portal backend, see more on wiki page)
+- spotify (flatpak)
+- obsidian (flatpak)
+- betterbird (flatpak, better version of thunderbird mail client) 	https://wiki.archlinux.org/title/thunderbird
+
+	WINDOW MANAGER & DEPENDENCIES:
+
+- xf86-video-intel
+- xorg (package group, including xorg-server & xorg-apps)		https://wiki.archlinux.org/title/xorg
+	- xorg-server (part of xorg package group)
+	- xorg-apps (part of xorg package group)
+- xorg-xinit
+- qtile									https://wiki.archlinux.org/title/Qtile		http://docs.qtile.org/en/stable/
+- python-dateutil (to enable timezones in qtile clock widget)           https://github.com/qtile/qtile/issues/1662
+- python-psutil (qtile widget dependency)
+
+	GUI EXTENSIONS:
+
+- picom (compositor for basic animations)				https://wiki.archlinux.org/title/Picom
+- nitrogen (wallpaper selector)						https://wiki.archlinux.org/title/Nitrogen
+- unclutter (mouse utility that hides pointer)				https://wiki.archlinux.org/title/Unclutter
+- papirus-icon-theme 							https://wiki.archlinux.org/title/Icons
+- dracula GTK3  icon-theme (download from webpage -->)			https://draculatheme.com/gtk
+- otf-font-awesome (add font-based icon support, see webpage for icons)	https://fontawesome.com/v5/cheatsheet/free/solid
+- ttf-font-awesome (same as above)	
+- noto-fonts (UNINSTALLED, google fonts, replaced by win11 fonts)	https://wiki.archlinux.org/title/fonts
+
+	USEFUL EXTRA INFORMATION:
+
+For general recommendation after install:				https://wiki.archlinux.org/title/General_recommendations
+
+For system maintenance see:						https://wiki.archlinux.org/title/System_maintenance#Upgrading_the_system
+
+Screen resolutions and aspect ratios:					https://www.epiphan.com/userguides/avio-4k/Content/UserGuides/VideoGrabber/UVC/3-Capture/fpsResolutions&Ratios.htm
+
+Colour codes in hex, ansi and rgb:					https://robotmoon.com/256-colors/		https://www.rapidtables.com/web/color/RGB_Color.html
+
+How to fix screen flickering on thinkpad 				https://ljvmiranda921.github.io/notebook/2021/09/01/linux-thinkpad-screen-flicker/
+
+How to change default Kernel at boot					https://itsfoss.com/switch-kernels-arch-linux/
+
+Optimize system for gaming						https://wiki.archlinux.org/title/gaming
+
+If file manager takes 25 seconds to start, see				https://bbs.archlinux.org/viewtopic.php?id=286096
+
+For dotfiles management with Git, see arch wiki or			https://mitxela.com/projects/dotfiles_management

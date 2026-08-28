@@ -1,0 +1,6 @@
+#!/bin/bash
+
+sudo mkdir /run/media/henry
+sudo mkdir /run/media/henry/MediaBackup 
+sudo mount /dev/sda2 /run/media/henry/MediaBackup && sudo rsync -aAXHv -S --info=progress2 --one-file-system --exclude={".gvfs/*",".cache/*","Share/.Trash-1000/*",".config/variety/Downloaded/*",".local/share/Trash/*"} /home/henry /run/media/henry/MediaBackup && sudo umount /dev/sda2 
+sudo rmdir /run/media/henry/MediaBackup

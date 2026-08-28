@@ -1,0 +1,4 @@
+#!/bin/bash
+
+xsetwacom set 'Wacom One by Wacom S Pen stylus' MapToOutput HDMI1 &&
+xsetwacom set 'Wacom One by Wacom S Pen eraser' MapToOutput HDMI1

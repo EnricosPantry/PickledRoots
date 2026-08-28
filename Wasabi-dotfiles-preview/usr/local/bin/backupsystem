@@ -1,0 +1,6 @@
+#!/bin/bash
+
+sudo mkdir /run/media/henry
+sudo mkdir /run/media/henry/SystemBackup 
+sudo mount /dev/sda1 /run/media/henry/SystemBackup && sudo rsync -aAXHv --delete -S --info=progress2 --one-file-system --exclude={"/dev/*","/proc/*","/sys/*","/tmp/*","/run/*","/mnt/*","/media/*","/lost+found","/home/*","/var/lib/libvirt/images/*"} / /run/media/henry/SystemBackup && sudo umount /dev/sda1 
+sudo rmdir /run/media/henry/SystemBackup

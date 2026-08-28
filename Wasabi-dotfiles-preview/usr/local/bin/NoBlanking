@@ -1,0 +1,38 @@
+#!/bin/bash
+
+
+# This script prevents screen from blanking as long as audio is being played
+# It first checks if one of the pulseaudio sinks is running, and if so it 
+# uses xdotool to simulate a keystroke at regular intervals, to prevent 
+# screen blanking through DPMS
+
+# The original idea for the scrip was taken from the following thread:
+# https://bbs.archlinux.org/viewtopic.php?id=148267
+# the script was then refined using chatGPT
+
+# For more information about how DPMS works in Arch Linux:
+# https://wiki.archlinux.org/title/Display_Power_Management_Signaling
+# for information about current session settings, run "xset -q"
+
+
+### MAIN SCRIPT ###
+
+while true; 
+do
+
+   if
+
+      # check if sound is playing  
+      pacmd list-sink-inputs | grep -q "state: RUNNING"; 
+
+   then   
+
+      # simulate keystroke to prevent screen blanking   
+      xdotool key meta
+   
+   fi
+
+# check every 60 seconds
+sleep 60 
+
+done

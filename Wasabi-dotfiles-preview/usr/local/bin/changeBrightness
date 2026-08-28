@@ -1,0 +1,15 @@
+#!/bin/bash
+# changeBrightness
+
+# Arbitrary but unique message tag
+msgTag="mybrightness"
+
+# Change the brightness using xbacklight, first variable is for "-set", "-inc" or "-dec" and second variable is the amount
+xbacklight "$@" "$@"
+
+# Query xbacklight for the current brightness level
+level="$(xbacklight | awk '{print int($1+0.5)}')"
+
+# Show the backlight notification
+dunstify -a "changeBrightness" -u low -i /usr/share/icons/Papirus/16x16/panel/gpm-brightness-lcd.svg -h string:x-dunst-stack-tag:$msgTag \
+-h int:value:"$level" "Brightness: ${level}%"
