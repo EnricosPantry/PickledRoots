@@ -14,7 +14,7 @@
 - git					- git
 - yay (UNINSTALLED, AUR helper)		- yay				https://wiki.archlinux.org/title/AUR_helpers
 - nano (beginner-friendly text editor)	- nano				https://wiki.archlinux.org/title/Nano
-- vim (UNINSTALLED advanced text editor)- vim
+- vim (advanced text editor, installed by default)- vim
 - vi (git dependency text editor)	- vi
 - tlp (power management for laptop)	- tlp				https://wiki.archlinux.org/title/TLP
 - xorg-xrdb (X resources, not used)	- xrdb				https://wiki.archlinux.org/title/X_resources
