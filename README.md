@@ -4,7 +4,7 @@ This is a repository of notes from a personal Arch Linux and Windows 11 dual-boo
 
 The system was used as a main daily driver between 2022 and 2025. The purpose of this documentation is to capture a snapshot of how it was during its active years, rather than to provide an up-to-date guide. The vast majority of the processes can still be followed today; bear in mind, however, that some packages and commands may be out of date. 
 
-The actual system configuration files are included in this repository. Some contain minor errors and technical inconsistencies; they have been preserved as-is, as they were part of a fully working system.
+The actual system configuration files are included in this repository. Some contain minor errors and technical inconsistencies; they have been preserved as-is rather than changed, as they were part of a fully working and stable system.
 
 ## About
 
