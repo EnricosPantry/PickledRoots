@@ -25,8 +25,8 @@
 - pacman-contrib (pacman useful shell scripts collection)		https://gitlab.archlinux.org/pacman/pacman-contrib
 - autorandr (along with arandr, manages monitor configuration)		https://wiki.archlinux.org/title/multihead
 									https://linuxconfig.org/how-to-automatically-change-x11-displays-setup-with-autorandr-on-linux
-- wmctrl (enables window controls from CLI, ex. fullscreen toggle)	https://forums.linuxmint.com/viewtopic.php?t=297449
-- which (shows path to binaries of the program specified)
+- wmctrl (enables window controls from CLI, for example fullscreen toggle)	https://forums.linuxmint.com/viewtopic.php?t=297449
+- which (shows the path to the binaries of the specified program)
 - pamixer (audio utility to easily access volume & more)		https://github.com/cdemoulins/pamixer
 - cronie (NOT USED, utility to manage cron jobs)			https://wiki.archlinux.org/title/cron
 - p7zip (utility to manage .zip files)					https://wiki.archlinux.org/title/Archiving_and_compression
@@ -51,9 +51,9 @@
 - (a link on the right to instructions on how to customize GTK themes)	https://github.com/surajmandalcell/Gtk-Theming-Guide/blob/master/creating_gtk_themes.md
 - nemo-fileroller (nemo utility to enable "extract" context menu entry)
 - evince (GNOME PDF file viewer)	- https://wiki.archlinux.org/title/PDF,_PS_and_DjVu
-- gedit (GUI gnome text editor)		
+- gedit (GUI GNOME text editor)		
 - grsync (NOT USED, GUI interface for rsync)
-- variety (changes background, remember to log in to WM, not xinitrc)	https://peterlevi.com/variety/how-to-install/
+- variety (changes background; remember to log in to WM, not xinitrc)	https://peterlevi.com/variety/how-to-install/
 - nm-connection-editor (NOT USED, GUI to manage connections with N.M.)	https://wiki.archlinux.org/title/NetworkManager
 - networkmanager-dmenu-git (NOT USED, manage connections through rofi)
 - libnotify (send notifications to notification server) 		https://wiki.archlinux.org/title/Desktop_notifications
@@ -89,11 +89,11 @@
 - gamemode (improve game performance)					https://wiki.archlinux.org/title/Gamemode		
 - lib32-gamemode (gamemode dependency)			
 - meson (gamemode dependency)
-- intel-ucode (utility to update Intel firmware microcode, update grub after installation)
+- intel-ucode (utility to update Intel firmware microcode; update grub after installation)
 - reflector (automate refreshing of pacman mirrors)			https://wiki.archlinux.org/title/Reflector
 - xdg-user-dirs (create and manage user directories in /home)		https://wiki.archlinux.org/title/XDG_user_directories#Creating_default_directories
 - acpi (UNINSTALLED, not necessary, information on battery usage)	https://wiki.archlinux.org/title/ACPI_modules
-- ntfs-3g (to mount and manage NTFS file systems			https://wiki.archlinux.org/title/NTFS-3G
+- ntfs-3g (to mount and manage NTFS file systems)			https://wiki.archlinux.org/title/NTFS-3G
 - ttf-ms-win11 (AUR, Win11 fonts, needed for qtile to display properly)	https://wiki.archlinux.org/title/Microsoft_fonts
 	to install, follow instructions on PKGBUILD			https://aur.archlinux.org/packages/ttf-ms-win11
 
