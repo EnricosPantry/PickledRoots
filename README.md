@@ -40,8 +40,9 @@ Ly was used as the display manager, Firefox as the browser, Alacritty as the ter
 
 ## Sources
 
-The notes and setup guide refer multiple times to the Arch Wiki, which was used consistently and thoroughly whilst building this setup.
-Visiting the [Arch Wiki](https://wiki.archlinux.org/title/Main_page) is highly recommended for up-to-date instructions and as a general Linux knowledge base.
+The notes and setup guide refer multiple times to the [Arch Wiki](https://wiki.archlinux.org/title/Main_page), which was used consistently and thoroughly whilst building this setup. Visiting it is highly recommended for up-to-date instructions and as a general Linux knowledge base.
+
+Other sources such as forums and online resources were also used and are linked throughout the notes. Reading them is recommended.
 
 ## Disclaimer
 
