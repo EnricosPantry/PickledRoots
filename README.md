@@ -2,7 +2,7 @@
 
 This is a repository of notes from a personal Arch Linux and Windows 11 dual-boot setup on a device affectionately named Wasabi.
 
-The system was used as a main daily driver between 2022 and 2025. The purpose of this documentation is to capture a snapshot of how it was during its active years, rather than to provide an up-to-date guide. The vast majority of the processes can still be followed today; bear in mind, however, that some packages and commands may be out of date.
+The system was used as a main daily driver between 2022 and 2025. The purpose of this documentation is to capture a snapshot of how it was during its active years, rather than to provide an up-to-date guide. The vast majority of the processes can still be followed today; bear in mind, however, that some packages and commands may be out of date. The actual system configuration files are included in this repository; they have been preserved as-is, and some contain minor errors and technical inconsistencies. They were part of a fully working system nonetheless.
 
 ## About
 
@@ -14,7 +14,7 @@ The Arch installation used a minimal window manager, Qtile, rather than a full d
 The system and files were backed up in the following ways:
 
 - A custom-made rsync script copied configuration file changes from anywhere in the filesystem to an external drive. It separately backed up the user home folder to a second partition of the drive.
-- A bare Git repository was used to track configuration file changes throughout the filesystem and upload commits to GitHub. The dotfiles themselves are published in this repository, inside the "Wasabi dotfiles preview" folder.
+- A bare Git repository was used to track configuration file changes throughout the filesystem and upload commits to GitHub.
 
 Ly was used as the display manager, Firefox as the browser, Alacritty as the terminal emulator, and Rofi as the system and application menu.
 
@@ -30,7 +30,7 @@ Ly was used as the display manager, Firefox as the browser, Alacritty as the ter
 - [PAM error: gkr-pam: couldn't unlock the login keyring](gkr-pam-couldnt-unlock-the-login-keyring.md) - this innocuous error message showed up in journalctl after every boot; found the cause to be a single file that I configured wrongly.
 - [Kernel error: i801_smbus: SMBus is busy, can't use it!](i801-smbus-smbus-is-busy-cant-use-it.md) - innocuous kernel error showing up in journalctl after boot; resolved by preventing the module's implicit loading.
 - [Bad behaviour: screen blanking during media playback](screen-blanking-during-video-and-audio.md) - the screen kept on timing out (blanking) even whilst videos or music were playing; wrote a custom Bash script to prevent it from happening.
-- [Bad behaviour: wrong system time after change to BST](system-time-error-after-change-to-bst.md) - the change to British Summer Time moved the clock forward in Linux by 2 hours rather than 1; the cause was a wrong time setup in Windows.
+- [Bad behaviour: wrong system time after change to BST](system-time-error-after-change-to-bst.md) - the change to British Summer Time moved the clock forward in Linux by 2 hours rather than 1; the cause was an incorrect time setup in Windows.
 
 ### Configuration files
 
