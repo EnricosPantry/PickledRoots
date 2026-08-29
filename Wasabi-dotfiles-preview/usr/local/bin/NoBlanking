@@ -1,18 +1,18 @@
 #!/bin/bash
 
 
-# This script prevents screen from blanking as long as audio is being played
+# This script prevents the screen from blanking as long as audio is being played
 # It first checks if one of the pulseaudio sinks is running, and if so it 
-# uses xdotool to simulate a keystroke at regular intervals, to prevent 
+# uses xdotool to simulate a keystroke at regular intervals to prevent 
 # screen blanking through DPMS
 
-# The original idea for the scrip was taken from the following thread:
+# The original idea for the script was taken from the following thread:
 # https://bbs.archlinux.org/viewtopic.php?id=148267
-# the script was then refined using chatGPT
+# The script was then refined using ChatGPT
 
 # For more information about how DPMS works in Arch Linux:
 # https://wiki.archlinux.org/title/Display_Power_Management_Signaling
-# for information about current session settings, run "xset -q"
+# For information about current session settings, run "xset -q"
 
 
 ### MAIN SCRIPT ###
