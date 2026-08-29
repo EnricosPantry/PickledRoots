@@ -18,7 +18,7 @@ The system and files were backed up in the following ways:
 - A custom-made rsync script copied configuration file changes from anywhere in the filesystem to an external drive. It separately backed up the user home folder to a second partition of the drive.
 - A bare Git repository was also used to track configuration file changes throughout the filesystem and upload them to GitHub, used as a cloud backup.
 
-A custom system-update script ran routine maintenance and cleaning tasks alongside pacman updates, and dumped a list of installed packages in the home folder, which was backed up with the rest of the files. AUR packages were installed manually rather than using an AUR helper to preserve flags and prevent instability; a separate foreign-package list existed in the home folder.
+A custom system-update script ran routine maintenance and cleaning tasks alongside pacman updates, and dumped a list of installed packages in the home folder, which was backed up with the rest of the files. AUR packages were installed manually rather than using an AUR helper to preserve flags and prevent instability; a list of foreign-installed packages was also kept in the home folder, separate from the pacman-installed one.
 
 Rofi was used as the system and application menu, Ly was used as the display manager, Firefox as the browser, Nemo as the file manager, Alacritty as the terminal emulator, and GParted for partition management. The system was capable of virtualisation using a fully configured QEMU/KVM stack, with virt-manager as the GUI.
 
@@ -38,13 +38,13 @@ Rofi was used as the system and application menu, Ly was used as the display man
 
 ### Configuration files
 
-- [Wasabi-dotfiles-preview](Wasabi-dotfiles-preview) - this is a folder containing all manually written and modified configuration files; it is structured the same way as the root folder on a Linux installation, with all original file paths preserved. All user-authored original scripts are stored in usr/local/bin.
+- [Wasabi-dotfiles-preview](Wasabi-dotfiles-preview) - this is a folder containing all user-created and user-edited configuration files; it is structured the same way as the root folder on a Linux installation, with all original file paths preserved. All user-authored original scripts are stored in usr/local/bin.
 
 ## Sources
 
 The notes and setup guide refer multiple times to the [Arch Wiki](https://wiki.archlinux.org/title/Main_page), which was used consistently and thoroughly whilst building this setup. Visiting it is highly recommended for up-to-date instructions and as a general Linux knowledge base.
 
-Other sources such as forums and online resources were also used and are linked throughout the notes. Reading them is recommended.
+Other sources such as forums and online resources were also used and are linked throughout the notes.
 
 ## Disclaimer
 
