@@ -1,0 +1,9 @@
+[user]
+	name = TheShellPantry
+	email = noreply@example.com
+[core]
+	editor = vim
+[init]
+	defaultBranch = wasabi
+[credential]
+	helper = /usr/lib/git-core/git-credential-libsecret
