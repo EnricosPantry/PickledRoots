@@ -2,7 +2,9 @@
 
 This is a repository of notes from a personal Arch Linux and Windows 11 dual-boot setup on a device affectionately named Wasabi.
 
-The system was used as a main daily driver between 2022 and 2025. The purpose of this documentation is to capture a snapshot of how it was during its active years, rather than to provide an up-to-date guide. The vast majority of the processes can still be followed today; bear in mind, however, that some packages and commands may be out of date. The actual system configuration files are included in this repository; they have been preserved as-is, and some contain minor errors and technical inconsistencies. They were part of a fully working system nonetheless.
+The system was used as a main daily driver between 2022 and 2025. The purpose of this documentation is to capture a snapshot of how it was during its active years, rather than to provide an up-to-date guide. The vast majority of the processes can still be followed today; bear in mind, however, that some packages and commands may be out of date. 
+
+The actual system configuration files are included in this repository; they have been preserved as-is, and some contain minor errors and technical inconsistencies. They were part of a fully working system nonetheless.
 
 ## About
 
