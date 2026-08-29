@@ -8,10 +8,10 @@ The actual system configuration files are included in this repository; they have
 
 ## About
 
-The setup was for an Arch Linux installation as the main daily driver, with a minimal Windows 11 used for gaming alongside Arch.
+The setup was for an Arch Linux installation as the main daily driver, dual-booting with a minimal Windows 11 used only for gaming.
 The machine itself was a Lenovo ThinkPad X1 Carbon Gen 9, with an Intel processor and graphics.
 
-The Arch installation used a minimal window manager, Qtile, rather than a full desktop environment, and deliberately ran the lowest possible number of packages. This ensured the system was simple and stable, even when updating daily.
+The Arch installation used a minimal window manager, Qtile, rather than a full desktop environment, and deliberately ran the lowest possible number of packages. This ensured the system was simple and stable, even with daily updates.
 
 The system and files were backed up in the following ways:
 
