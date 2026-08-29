@@ -11,16 +11,16 @@ The actual system configuration files are included in this repository. Some cont
 The setup was for an Arch Linux installation as the main daily driver, dual-booting with a minimal Windows 11 used only for gaming.
 The machine itself was a Lenovo ThinkPad X1 Carbon Gen 9, with an Intel processor and graphics.
 
-The Arch installation used a minimal window manager, Qtile, rather than a full desktop environment, and deliberately ran the lowest possible number of packages. This ensured the system's simplicity and stability even with daily updates.
+The Arch installation used a minimal window manager, Qtile, rather than a full desktop environment, and deliberately ran the lowest possible number of packages. This kept the system simple and stable even with daily updates.
 
 The system and files were backed up in the following ways:
 
 - A custom-made rsync script copied configuration file changes from anywhere in the filesystem to an external drive. It separately backed up the user home folder to a second partition of the drive.
-- A bare Git repository was also used to track configuration file changes throughout the filesystem and upload them to GitHub, used as a cloud backup.
+- A bare Git repository was also used to track configuration file changes throughout the filesystem and upload them to GitHub, which was used as a cloud backup.
 
 A custom system-update script ran routine maintenance and cleaning tasks alongside pacman updates, and dumped a list of installed packages in the home folder, which was backed up with the rest of the files. AUR packages were installed manually rather than using an AUR helper to preserve flags and prevent instability; a list of foreign-installed packages was also kept in the home folder, separate from the pacman-installed one.
 
-Rofi was used as the system and application menu, Ly was used as the display manager, Firefox as the browser, Nemo as the file manager, Alacritty as the terminal emulator, and GParted for partition management. The system was capable of virtualisation using a fully configured QEMU/KVM stack, with virt-manager as the GUI.
+Rofi was used as the system and application menu, Ly was used as the display manager, Firefox as the browser, Nemo as the file manager, Alacritty as the terminal emulator, Vim as the text editor, and GParted for partition management. The system was capable of virtualisation using a fully configured QEMU/KVM stack, with virt-manager as the GUI.
 
 ## Contents
 
@@ -42,7 +42,7 @@ Rofi was used as the system and application menu, Ly was used as the display man
 
 ## Sources
 
-The notes and setup guide refer multiple times to the [Arch Wiki](https://wiki.archlinux.org/title/Main_page), which was used consistently and thoroughly whilst building this setup. Visiting it is highly recommended for up-to-date instructions and as a general Linux knowledge base.
+The notes and setup guide refer to the [Arch Wiki](https://wiki.archlinux.org/title/Main_page) multiple times, which was used consistently and thoroughly whilst building this setup. Visiting it is highly recommended for up-to-date instructions and as a general Linux knowledge base.
 
 Other sources such as forums and online resources were also used and are linked throughout the notes.
 
