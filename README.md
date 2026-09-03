@@ -2,7 +2,7 @@
 
 This is a repository of notes from a personal Arch Linux and Windows 11 dual-boot setup on a device affectionately named Wasabi.
 
-The system was used as a daily driver between 2022 and 2025. The purpose of this documentation is to capture a snapshot of how it was during its active years, rather than to provide an up-to-date guide. The vast majority of the processes can still be followed today; bear in mind, however, that some packages and commands may be out of date.
+The system was used as a daily driver between 2022 and 2025. The included notes were written during its active years and published in 2026. The purpose of this page is to capture a snapshot of the system during its use, rather than to provide up-to-date Linux information. The vast majority of the processes can still be followed today; bear in mind, however, that some packages and commands may be out of date.
 
 The actual system configuration files are included in this repository, along with the notes. Minor errors and technical inconsistencies are scattered throughout: everything has been preserved as is, as it represents part of what was a fully working and stable system.
 
@@ -24,10 +24,6 @@ Rofi was used as the system and application menu, Ly as the display manager, Fir
 
 ## Contents
 
-### Setup guide
-
-- [Wasabi setup guide: Arch Linux and Windows 11 dual-boot](arch-windows11-dual-boot-setup.md) - this is the full system setup guide. It includes Windows and Arch Linux step-by-step installation, and the post-installation to-do list.
-
 ### Troubleshooting notes
 
 - [Bad behaviour: keyboard layout reverts to US](keyboard-layout-reverts-to-us.md), the keyboard layout kept changing to US randomly for months, with no apparent solution; found the root cause after a seemingly unrelated action.
@@ -35,6 +31,10 @@ Rofi was used as the system and application menu, Ly as the display manager, Fir
 - [Kernel error: i801_smbus: SMBus is busy, can't use it!](i801-smbus-smbus-is-busy-cant-use-it.md), innocuous kernel error showing up in journalctl after boot; resolved by preventing the module's implicit loading.
 - [Bad behaviour: screen blanking during media playback](screen-blanking-during-video-and-audio.md), the screen kept on timing out (blanking) even whilst videos or music were playing; wrote a custom Bash script to prevent it from happening.
 - [Bad behaviour: wrong system time after change to BST](system-time-error-after-change-to-bst.md), the change to British Summer Time moved the clock forward in Linux by 2 hours rather than 1; the cause was an incorrect time setup in Windows.
+
+### Setup guide
+
+- [Wasabi setup guide: Arch Linux and Windows 11 dual-boot](arch-windows11-dual-boot-setup.md) - this is the full system setup guide. It includes Windows and Arch Linux step-by-step installation, and the post-installation to-do list.
 
 ### Configuration files
 
